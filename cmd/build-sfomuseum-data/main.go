@@ -48,7 +48,7 @@ func main() {
 		pt := sfomuseum_props.Placetype(f)
 
 		if pt != "airport" {
-			// log.Println("NOT AN AIRPORT", whosonfirst.Id(f), whosonfirst.Name(f), pt)
+			log.Println("NOT AN AIRPORT", whosonfirst.Id(f), whosonfirst.Name(f), pt)
 			return nil
 		}
 
