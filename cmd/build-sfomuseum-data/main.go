@@ -45,6 +45,8 @@ func main() {
 			return err
 		}
 
+		// TO DO : https://github.com/sfomuseum/go-sfomuseum-airports-tools/issues/1
+		
 		pt := sfomuseum_props.Placetype(f)
 
 		if pt != "airport" {
