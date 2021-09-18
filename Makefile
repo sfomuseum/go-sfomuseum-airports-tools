@@ -1,9 +1,4 @@
-fmt:
-	go fmt *.go
-	# go fmt cmd/*.go
-	go fmt sfomuseum/*.go
-
-tools: 	
+cli: 	
 	go build -mod vendor -o bin/build-sfomuseum-data cmd/build-sfomuseum-data/main.go
 
 data: sfomuseum-data
