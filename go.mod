@@ -1,5 +1,7 @@
 module github.com/sfomuseum/go-sfomuseum-airports-tools
 
+// pin to sfomuseum/go-sfomuseum-airports v0.1.5						       
+
 require (
 	github.com/sfomuseum/go-sfomuseum-airports v0.1.5
 	github.com/sfomuseum/go-sfomuseum-geojson v0.1.3
